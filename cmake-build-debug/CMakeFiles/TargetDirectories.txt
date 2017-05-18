@@ -1,0 +1,3 @@
+C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/Light_bot.dir
+C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/edit_cache.dir
