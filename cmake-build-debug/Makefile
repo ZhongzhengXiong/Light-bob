@@ -122,6 +122,60 @@ Light_bot/fast:
 	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/build
 .PHONY : Light_bot/fast
 
+Map.obj: Map.cpp.obj
+
+.PHONY : Map.obj
+
+# target to build an object file
+Map.cpp.obj:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Map.cpp.obj
+.PHONY : Map.cpp.obj
+
+Map.i: Map.cpp.i
+
+.PHONY : Map.i
+
+# target to preprocess a source file
+Map.cpp.i:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Map.cpp.i
+.PHONY : Map.cpp.i
+
+Map.s: Map.cpp.s
+
+.PHONY : Map.s
+
+# target to generate assembly for a file
+Map.cpp.s:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Map.cpp.s
+.PHONY : Map.cpp.s
+
+Robot.obj: Robot.cpp.obj
+
+.PHONY : Robot.obj
+
+# target to build an object file
+Robot.cpp.obj:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Robot.cpp.obj
+.PHONY : Robot.cpp.obj
+
+Robot.i: Robot.cpp.i
+
+.PHONY : Robot.i
+
+# target to preprocess a source file
+Robot.cpp.i:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Robot.cpp.i
+.PHONY : Robot.cpp.i
+
+Robot.s: Robot.cpp.s
+
+.PHONY : Robot.s
+
+# target to generate assembly for a file
+Robot.cpp.s:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Robot.cpp.s
+.PHONY : Robot.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Light_bot
 	@echo ... edit_cache
+	@echo ... Map.obj
+	@echo ... Map.i
+	@echo ... Map.s
+	@echo ... Robot.obj
+	@echo ... Robot.i
+	@echo ... Robot.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

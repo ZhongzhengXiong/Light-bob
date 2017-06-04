@@ -80,19 +80,71 @@ CMakeFiles/Light_bot.dir/main.cpp.obj.provides: CMakeFiles/Light_bot.dir/main.cp
 CMakeFiles/Light_bot.dir/main.cpp.obj.provides.build: CMakeFiles/Light_bot.dir/main.cpp.obj
 
 
+CMakeFiles/Light_bot.dir/Map.cpp.obj: CMakeFiles/Light_bot.dir/flags.make
+CMakeFiles/Light_bot.dir/Map.cpp.obj: ../Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JekinXiong\ClionProjects\Light-bot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Light_bot.dir/Map.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Light_bot.dir\Map.cpp.obj -c C:\Users\JekinXiong\ClionProjects\Light-bot\Map.cpp
+
+CMakeFiles/Light_bot.dir/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Light_bot.dir/Map.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JekinXiong\ClionProjects\Light-bot\Map.cpp > CMakeFiles\Light_bot.dir\Map.cpp.i
+
+CMakeFiles/Light_bot.dir/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Light_bot.dir/Map.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JekinXiong\ClionProjects\Light-bot\Map.cpp -o CMakeFiles\Light_bot.dir\Map.cpp.s
+
+CMakeFiles/Light_bot.dir/Map.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Light_bot.dir/Map.cpp.obj.requires
+
+CMakeFiles/Light_bot.dir/Map.cpp.obj.provides: CMakeFiles/Light_bot.dir/Map.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Map.cpp.obj.provides.build
+.PHONY : CMakeFiles/Light_bot.dir/Map.cpp.obj.provides
+
+CMakeFiles/Light_bot.dir/Map.cpp.obj.provides.build: CMakeFiles/Light_bot.dir/Map.cpp.obj
+
+
+CMakeFiles/Light_bot.dir/Robot.cpp.obj: CMakeFiles/Light_bot.dir/flags.make
+CMakeFiles/Light_bot.dir/Robot.cpp.obj: ../Robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\JekinXiong\ClionProjects\Light-bot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Light_bot.dir/Robot.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Light_bot.dir\Robot.cpp.obj -c C:\Users\JekinXiong\ClionProjects\Light-bot\Robot.cpp
+
+CMakeFiles/Light_bot.dir/Robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Light_bot.dir/Robot.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\JekinXiong\ClionProjects\Light-bot\Robot.cpp > CMakeFiles\Light_bot.dir\Robot.cpp.i
+
+CMakeFiles/Light_bot.dir/Robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Light_bot.dir/Robot.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\JekinXiong\ClionProjects\Light-bot\Robot.cpp -o CMakeFiles\Light_bot.dir\Robot.cpp.s
+
+CMakeFiles/Light_bot.dir/Robot.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Light_bot.dir/Robot.cpp.obj.requires
+
+CMakeFiles/Light_bot.dir/Robot.cpp.obj.provides: CMakeFiles/Light_bot.dir/Robot.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Robot.cpp.obj.provides.build
+.PHONY : CMakeFiles/Light_bot.dir/Robot.cpp.obj.provides
+
+CMakeFiles/Light_bot.dir/Robot.cpp.obj.provides.build: CMakeFiles/Light_bot.dir/Robot.cpp.obj
+
+
 # Object files for target Light_bot
 Light_bot_OBJECTS = \
-"CMakeFiles/Light_bot.dir/main.cpp.obj"
+"CMakeFiles/Light_bot.dir/main.cpp.obj" \
+"CMakeFiles/Light_bot.dir/Map.cpp.obj" \
+"CMakeFiles/Light_bot.dir/Robot.cpp.obj"
 
 # External object files for target Light_bot
 Light_bot_EXTERNAL_OBJECTS =
 
 Light_bot.exe: CMakeFiles/Light_bot.dir/main.cpp.obj
+Light_bot.exe: CMakeFiles/Light_bot.dir/Map.cpp.obj
+Light_bot.exe: CMakeFiles/Light_bot.dir/Robot.cpp.obj
 Light_bot.exe: CMakeFiles/Light_bot.dir/build.make
 Light_bot.exe: CMakeFiles/Light_bot.dir/linklibs.rsp
 Light_bot.exe: CMakeFiles/Light_bot.dir/objects1.rsp
 Light_bot.exe: CMakeFiles/Light_bot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\JekinXiong\ClionProjects\Light-bot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Light_bot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\JekinXiong\ClionProjects\Light-bot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Light_bot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Light_bot.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +153,8 @@ CMakeFiles/Light_bot.dir/build: Light_bot.exe
 .PHONY : CMakeFiles/Light_bot.dir/build
 
 CMakeFiles/Light_bot.dir/requires: CMakeFiles/Light_bot.dir/main.cpp.obj.requires
+CMakeFiles/Light_bot.dir/requires: CMakeFiles/Light_bot.dir/Map.cpp.obj.requires
+CMakeFiles/Light_bot.dir/requires: CMakeFiles/Light_bot.dir/Robot.cpp.obj.requires
 
 .PHONY : CMakeFiles/Light_bot.dir/requires
 

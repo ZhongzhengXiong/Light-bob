@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Map.cpp">
+			<Option target="Light_bot"/>
+		</Unit>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Map.h">
+			<Option target="Light_bot"/>
+		</Unit>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Robot.cpp">
+			<Option target="Light_bot"/>
+		</Unit>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Robot.h">
+			<Option target="Light_bot"/>
+		</Unit>
 		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/main.cpp">
 			<Option target="Light_bot"/>
 		</Unit>

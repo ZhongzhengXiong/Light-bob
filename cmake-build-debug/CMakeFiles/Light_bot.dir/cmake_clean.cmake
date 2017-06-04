@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Light_bot.dir/main.cpp.obj"
+  "CMakeFiles/Light_bot.dir/Map.cpp.obj"
+  "CMakeFiles/Light_bot.dir/Robot.cpp.obj"
   "Light_bot.pdb"
   "Light_bot.exe"
   "Light_bot.exe.manifest"
