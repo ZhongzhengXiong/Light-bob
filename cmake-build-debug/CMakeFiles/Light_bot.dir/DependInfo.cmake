@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/JekinXiong/ClionProjects/Light-bot/Game.cpp" "C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/Light_bot.dir/Game.cpp.obj"
   "C:/Users/JekinXiong/ClionProjects/Light-bot/Map.cpp" "C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/Light_bot.dir/Map.cpp.obj"
   "C:/Users/JekinXiong/ClionProjects/Light-bot/Robot.cpp" "C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/Light_bot.dir/Robot.cpp.obj"
   "C:/Users/JekinXiong/ClionProjects/Light-bot/main.cpp" "C:/Users/JekinXiong/ClionProjects/Light-bot/cmake-build-debug/CMakeFiles/Light_bot.dir/main.cpp.obj"

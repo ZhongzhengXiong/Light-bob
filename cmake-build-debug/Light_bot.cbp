@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Game.cpp">
+			<Option target="Light_bot"/>
+		</Unit>
+		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Game.h">
+			<Option target="Light_bot"/>
+		</Unit>
 		<Unit filename="C:/Users/JekinXiong/ClionProjects/Light-bot/Map.cpp">
 			<Option target="Light_bot"/>
 		</Unit>

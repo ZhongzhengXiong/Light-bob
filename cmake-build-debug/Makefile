@@ -122,6 +122,33 @@ Light_bot/fast:
 	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/build
 .PHONY : Light_bot/fast
 
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\Light_bot.dir\build.make CMakeFiles/Light_bot.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 Map.obj: Map.cpp.obj
 
 .PHONY : Map.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Light_bot
 	@echo ... edit_cache
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s

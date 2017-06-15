@@ -16,6 +16,7 @@ class Robot {
     int height;
 public:
     friend class Map;
+    friend class Game;
     friend void store(std::string filename);
     Robot(){};
     Robot(int x1, int y1, int direction1, int height): x(x1), y(y1), direction(direction1), height(height){}
