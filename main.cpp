@@ -1,5 +1,4 @@
 #include <iostream>
-//#include "Map.h"
 #include "Game.h"
 
 #include <windows.h>
@@ -8,14 +7,7 @@
 #include <stack>
 #include <sstream>
 
-//#define RANKSIZE 5
-//#define DEFAULT_MAPSIZE 8
-//#define MAX_LIGHTS_NUM 10
-//#define MAX_HEIGHT 6
-
-
 using namespace std;
-
 
 int main() {
     SetConsoleOutputCP(65001);

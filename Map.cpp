@@ -63,6 +63,7 @@ int Map::turnLight(const Robot *robot) {
             on--;
             if (robot->x == lights[i].x && robot->y == lights[i].y) {
                 lights[i].status = 1;
+                mapNodes[lights[i].x][lights[i].y].setHasLight(false);
                 on++;
             }
         }
@@ -88,7 +89,13 @@ void Map::path(Node *root, int direction) {
     Node *lightNode;
     bool finded = false;
     int lightFinded = 0;
-    while (lightFinded != lightNum) {
+    int lightOffNum = 0;
+    for(int i = 0; i < lightNum; i++){
+        if(lights[i].status == 0)
+            lightOffNum++;
+    }
+    vector<int> pFinded;
+    while (lightFinded != lightOffNum) {
         nodes.push(root);
         while (!nodes.empty()) {
             Node *tmpNode = nodes.front();
@@ -100,6 +107,7 @@ void Map::path(Node *root, int direction) {
                 root = tmpNode;
                 root->setVisited(true);
                 lightNode = tmpNode;
+                pFinded.push_back(root->getX() * size + root->getY());
                 break;
             }
             tmpNode->setVisited(true);
@@ -177,8 +185,12 @@ void Map::path(Node *root, int direction) {
     }
     cout << endl;
     NodesInit();
-    for (int i = 0; i < lightNum; i++) {
-        mapNodes[lights[i].x][lights[i].y].setHasLight(true);
+    vector<int>::iterator iter = pFinded.begin();
+    while(iter != pFinded.end()){
+        int pfx = (*iter) / size;
+        int pfy = (*iter) % size;
+        mapNodes[pfx][pfy].setHasLight(true);
+        iter++;
     }
 }
 
